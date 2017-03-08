@@ -401,3 +401,4 @@
 /mnt/user(/.*)?             u:object_r:mnt_user_file:s0
 /mnt/runtime(/.*)?          u:object_r:storage_file:s0
 /storage(/.*)?              u:object_r:storage_file:s0
+/system/bin/abc             u:object_r:abc_exec:s0
