@@ -169,7 +169,6 @@ allow init sysfs_zram:file getattr;
 domain_trans(init, rootfs, adbd)
 domain_trans(init, rootfs, healthd)
 domain_trans(init, rootfs, slideshow)
-domain_trans(init, abc_exec, abc)
 recovery_only(`
   domain_trans(init, rootfs, recovery)
 ')
