@@ -602,4 +602,4 @@ neverallow {
 # Enforce restrictions on kernel module origin.
 # Do not allow kernel module loading except from system,
 # vendor, and boot partitions.
-neverallow * ~{ system_file rootfs }:system module_load;
+neverallow * ~{ system_file rootfs pvrsrvctl }:system module_load;
