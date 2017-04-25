@@ -1,4 +1,0 @@
-type pvrsrvctl, domain, mlstrustedsubject;
-type pvrsrvctl_exec, exec_type, file_type;
-init_daemon_domain(pvrsrvctl)
-
