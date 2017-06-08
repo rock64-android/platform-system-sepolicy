@@ -38,6 +38,11 @@ allow adbd shell_data_file:file create_file_perms;
 allow adbd profman_dump_data_file:dir r_dir_perms;
 allow adbd profman_dump_data_file:file r_file_perms;
 
+
+# adb pull /data/logs.
+allow adbd aplog_data_file:dir r_dir_perms;
+allow adbd aplog_data_file:file r_file_perms;
+
 # adb push/pull sdcard.
 allow adbd tmpfs:dir search;
 allow adbd rootfs:lnk_file r_file_perms;  # /sdcard symlink
